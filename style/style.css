@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: rubik;
+}
+
+header {
+	display: flex;
+	width: 1440px;
+	height: 160px;
+	background-color: rgba(9, 18, 66, 1);
+}
+
+.header-left img {
+	margin-top: 62px;
+	margin-left: 260px;
+}
+
+.watch {
+	display: flex;
+}
+
+.watch p {
+	margin-top: 59.5px;
+	margin-left: 17px;
+	width: 176px;
+	height: 40px;
+	font-family: Krub;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+
+.watch img {
+	width: 63px;
+	height: 63px;
+	margin-top: 48.5px;
+	margin-left: 150px;
+}
+
+.gmail {
+	display: flex;
+}
+
+.gmail p {
+	margin-top: 59.5px;
+	margin-left: 17px;
+	width: 176px;
+	height: 40px;
+	font-family: Krub;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+
+.gmail img {
+	width: 63px;
+	height: 63px;
+	margin-top: 48.5px;
+	margin-left: 10px;
+}
+
+.phone {
+	display: flex;
+}
+
+.phone p {
+	display: flex;
+	flex-direction: column;
+	margin-top: 59.5px;
+	margin-left: 17px;
+	width: 107px;
+	height: 57px;
+	font-family: Krub;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+
+.phone img {
+	width: 63px;
+	height: 63px;
+	margin-top: 48.5px;
+	margin-left: 10px;
+}
